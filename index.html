@@ -1,1 +1,52 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My GitHub Page</title>
+    <style>
+        body {
+            display: flex;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        .nav {
+            width: 200px;
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            height: 100vh;
+            box-sizing: border-box;
+        }
+        .nav img {
+            width: 100%;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            margin: 10px 0;
+        }
+        .content {
+            flex-grow: 1;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <img src="your-profile-image-url.jpg" alt="Profile Image">
+        <a href="#about-me">About Me</a>
+        <a href="#data-science-projects">Data Science Projects</a>
+    </div>
+    <div class="content">
+        <h1 id="about-me">About Me</h1>
+        <p>I am a data scientist in the telecoms industry.</p>
+        <h1 id="data-science-projects">Data Science Projects</h1>
+        <p>Details about my data science projects will go here.</p>
+    </div>
+</body>
+</html>
